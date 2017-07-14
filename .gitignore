@@ -1,2 +1,50 @@
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+
 *.class
 *.log
+
+# sbt specific
+.cache
+.classpath
+.target
+#dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.project
+.settings
+.cache-main
+.cache-tests
+bin
+
+# IntelliJ IDEA specific
+.idea
+
+# play-npm-demo
+play-npm-demo/*/logs
+play-npm-demo/*/project/project
+play-npm-demo/*/project/target
+play-npm-demo/*/target
+play-npm-demo/*/bin
+play-npm-demo/*/tmp
+play-npm-demo/*/.history
+play-npm-demo/*/dist
+play-npm-demo/*/.idea
+play-npm-demo/*/*.iml
+play-npm-demo/*/out
+play-npm-demo/*/.idea_modules
+play-npm-demo/*/.classpath
+play-npm-demo/*/.project
+play-npm-demo/*/RUNNING_PID
+play-npm-demo/*/.settings
+/bin/
